@@ -42,6 +42,7 @@
     font-size: 25px;
     font-weight: 500;
     text-align: center;
+    color: rgb(45, 2, 100)
 }
 .logo img{
     width: 30px;
@@ -65,7 +66,57 @@
     align-items: center;
     gap: 40px;
 }
-.content a {
+.navigation {
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    transition: 0.3s;
+}
+.navigation:hover{
+    color: rgb(223, 32, 223);
+}
+
+/* games navbutton styling and on hover div visible  */
+.games {
+    width: 55px;
+    height: 20px;
+    position: relative;
+}
+.games a{
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.gameContent {
+    width: 125px;
+    height: 90px;
+    background-color: white;
+    border-radius:10px;
+    position: absolute;
+    top: 3rem;
+    right: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+    transition: 1s;
+}
+.games:hover .gameContent{
+    visibility: visible;
+}
+.gameContent a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.gameContent a:hover{
+    color: rgb(223, 32, 223);
+}
+.home {
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
