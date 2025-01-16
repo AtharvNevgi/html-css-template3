@@ -35,7 +35,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    box-shadow: 20px;
+    box-shadow: 1px 1px 5px rgb(117, 114, 114);
     border-radius: 30px;
 }
 .logo a{
@@ -44,7 +44,7 @@
     font-size: 25px;
     font-weight: 500;
     text-align: center;
-    color: rgb(45, 2, 100)
+    color: rgb(45, 2, 100);
 }
 .logo img{
     width: 30px;
@@ -139,8 +139,9 @@
     height: 140px;
     border-radius: 2rem;
     background-color: white;
+    box-shadow: 1px 1px 5px rgb(117, 114, 114);
     margin-top: 10px;
-    margin-bottom: 75px;
+    margin-bottom: 85px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -186,10 +187,10 @@
     /* color: rgb(45, 2, 100) */
 }
 .consoleLogo {
-    width: 150px;
-    height: 148px;
+    width: 165px;
+    height: 170px;
     position: absolute;
-    margin-right: 52rem;
+    margin-right: 60rem;
     margin-top: 5rem;
 /* animation styling  */
     animation-name: consoleLogo;
@@ -208,10 +209,10 @@
     }
 }
 .consoleLogo2 {
-    width: 150px;
-    height: 148px;
+    width: 165px;
+    height: 170px;
     position: absolute;
-    margin-left: 52rem;
+    margin-left: 60rem;
     margin-top: 5rem;
 /* animation styling  */
     animation-name: consoleLogo2;
@@ -231,15 +232,60 @@
 }
 .headings {
     width: 100%;
-    height: 240px;
+    height: 200px;
+/* animation styling */
+    animation-name: headings;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+@keyframes headings{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 .upper {
     width: 100%;
     height: 150px;
-    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+.left {
+    width: 35%;
+    height: 120px;
+    margin-left: 15%;
+}
+.left h1{
+    font-size: 85px;
+    color: rgb(45, 2, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.right {
+    width: 35%;
+    height: 120px;
+    background-color: rgb(178, 5, 230);
+    border-radius: 5rem;
+}
+.right h1{
+    font-size: 85px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 .lower {
     width: 100%;
-    height: 90px;
-    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower span{
+    font-size: 35px;
+    color: rgb(45, 2, 100);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
