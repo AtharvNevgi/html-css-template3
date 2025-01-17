@@ -10,38 +10,39 @@
     /*align-items: center; */
 }
 .container1 {
-    background-color: rgb(222, 235, 243);
+    background-color: rgb(229, 243, 252);
     height: 100vh;
 }
 /* navbar styling */
 .navbar {
     width: 100%;
-    height: 150px;
+    height: 120px;
     /* background: red; */
+    margin-bottom: -50px;
     display: flex;
     justify-content: space-between;
 }
 .navLeft {
     width: 38%;
-    height: 150px;
+    height: 120px;
     /* background: yellow; */
 }
 .logo {
-    width: 45%;
-    height: 80px;
+    width: 42%;
+    height: 70px;
     background-color: white;
-    margin:50px 5rem;
+    margin:40px 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    box-shadow: 1px 1px 5px rgb(117, 114, 114);
-    border-radius: 30px;
+    box-shadow:-0px -0px -0px, 0px 0px 5px rgb(189, 153, 229);
+    border-radius: 1.2rem;
 }
 .logo a{
     text-decoration: none;
     font-family:'Franklin Gothic Medium';
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     text-align: center;
     color: rgb(45, 2, 100);
@@ -53,36 +54,36 @@
 /* navbar right styling  */
 .navRight {
     width: 38%;
-    height: 150px;
+    height: 120px;
     /* background: green; */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .content {
-    width: 81%;
+    width: 70%;
     height:30px;
     text-align: center;
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 .navigation {
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     transition: 0.3s;
 }
 .navigation:hover{
-    color: rgb(223, 32, 223);
+    color: rgb(176, 24, 236);
 }
 .home {
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    color: rgb(223, 32, 223);
+    font-size: 15px;
+    color: rgb(176, 24, 236);
 }
 
 /* games navbutton styling and on hover div visible  */
@@ -94,7 +95,7 @@
 .games a{
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
 }
 .gameContent {
@@ -103,7 +104,7 @@
     background-color: white;
     border-radius:10px;
     position: absolute;
-    top: 3rem;
+    top: 2.6rem;
     right: 1px;
     display: flex;
     flex-wrap: wrap;
@@ -122,7 +123,7 @@
     color: black;
 }
 .gameContent a:hover{
-    color: rgb(223, 32, 223);
+    color: rgb(176, 24, 236);
 }
 /* page 1 styling  */
 .page1 {
@@ -135,12 +136,12 @@
     position: relative;
 }
 .jumpOn {
-    width: 22%;
-    height: 140px;
-    border-radius: 2rem;
+    width: 20.5%;
+    height: 130px;
+    border-radius: 1.2rem;
     background-color: white;
-    box-shadow: 1px 1px 5px rgb(117, 114, 114);
-    margin-top: 10px;
+    box-shadow:-0px -0px -0px, 0px 0px 5px rgb(189, 153, 229);
+  
     margin-bottom: 85px;
     display: flex;
     flex-wrap: wrap;
@@ -166,32 +167,39 @@
 .jumpOn img{
     width: 78px;
     height: 78px;
-    border: 7px solid rgba(224, 217, 217, 0.651);
-    border-radius: 2rem;
+    border: 5px solid rgba(224, 217, 217, 0.651);
+    border-radius: 27px;
+    margin-right: 5px;
 }
 .innerContentJumpOn {
     width: 120px;
-    height: 70px;
+    height: 50px;
     /* background-color: red; */
     text-align: left;
-    margin-left: 1rem;
+    margin-right: 30px;
+    text-align: center;
 }
-.innerContentJumpOn h1{
-    font-size: 23px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(45, 2, 100)
+.innerContentJumpOn a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(45, 2, 100);
+    margin-right: 10px;
+    
 }
 .innerContentJumpOn span{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    /* color: rgb(45, 2, 100) */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(45, 2, 100);
+    margin-right: 30px;
 }
 .consoleLogo {
-    width: 165px;
-    height: 170px;
+    width: 150px;
+    height: 148px;
     position: absolute;
-    margin-right: 60rem;
-    margin-top: 5rem;
+    margin-right: 920px;
+    margin-top: 50px;
 /* animation styling  */
     animation-name: consoleLogo;
     animation-iteration-count: 1;
@@ -209,11 +217,11 @@
     }
 }
 .consoleLogo2 {
-    width: 165px;
-    height: 170px;
+    width: 150px;
+    height: 148px;
     position: absolute;
-    margin-left: 60rem;
-    margin-top: 5rem;
+    margin-left: 900px;
+    margin-top: 50px;
 /* animation styling  */
     animation-name: consoleLogo2;
     animation-iteration-count: 1;
@@ -232,12 +240,13 @@
 }
 .headings {
     width: 100%;
-    height: 200px;
+    height: 160px;
 /* animation styling */
     animation-name: headings;
     animation-iteration-count: 1;
     animation-duration: 5s;
     animation-delay: 1s;
+    margin-bottom: 100px;
 }
 @keyframes headings{
     from{
@@ -249,29 +258,30 @@
 }
 .upper {
     width: 100%;
-    height: 150px;
+    height: 120px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 .left {
     width: 35%;
-    height: 120px;
+    height: 110px;
     margin-left: 15%;
 }
 .left h1{
-    font-size: 85px;
+    font-size: 80px;
     color: rgb(45, 2, 100);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    margin-left: 30px;
 }
 .right {
     width: 35%;
-    height: 120px;
+    height: 110px;
     background-color: rgb(178, 5, 230);
-    border-radius: 5rem;
+    border-radius: 4.5rem;
 }
 .right h1{
-    font-size: 85px;
+    font-size: 80px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -284,7 +294,7 @@
     align-items: center;
 }
 .lower span{
-    font-size: 35px;
+    font-size: 27px;
     color: rgb(45, 2, 100);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
