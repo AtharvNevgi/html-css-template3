@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
-     justify-content: center;
+    justify-content: center;
     /*align-items: center; */
 }
 .container1 {
@@ -15,8 +15,8 @@
 }
 .container2 {
     background-color: rgb(229, 243, 252);
-    background-color: white;
-    height: 100vh;
+    height: 200vh;
+    position: relative;
 }
 /* navbar styling */
 .navbar {
@@ -304,24 +304,184 @@
     text-align: center;
 }
 /* page2 styling  */
+
 .page2 {
     width: 100%;
     height: 130px;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
+/* games content styling in page 2  */
 .feedTheCat {
     width: 20%;
     height: 130px;
-    background-color: red;
-    margin-left: 125px;
+    background-color: white;
+    margin-left: 85px;
+    border-radius: 1.2rem;
+    box-shadow:-0px -0px -0px, 0px 0px 5px rgb(189, 153, 229);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+/* animation styling  */
+    animation-name: FeedTheCat;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+@keyframes FeedTheCat {
+    from{
+        transform: translateX(-195px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.feedTheCat img{
+    width: 78px;
+    height: 78px;
+    border: 5px solid rgba(224, 217, 217, 0.651);
+    border-radius: 27px;
+    margin-right: 5px;
+}
+.innterContentFeedTheCat {
+    width: 140px;
+    height: 50px;
+    /* background-color: red; */
+    text-align: center;
+    text-align: center;
+}
+.innterContentFeedTheCat a{
+    font-size: 18px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(45, 2, 100);
+    margin-right: 10px;
+}
+.innterContentFeedTheCat span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgb(45, 2, 100);
+    margin-right: 72px;
 }
 .rippleDelete {
     width: 20%;
     height: 130px;
+    background-color: white;
+    margin-right: 85px;
+    border-radius: 1.2rem;
+    box-shadow:-0px -0px -0px, 0px 0px 5px rgb(189, 153, 229);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+/* animation styling  */
+    animation-name: RippleDelete;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+@keyframes RippleDelete{
+    from{
+        transform: translateX(-195px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.rippleDelete img{
+    width: 78px;
+    height: 78px;
+    border: 5px solid rgba(224, 217, 217, 0.651);
+    border-radius: 27px;
+    margin-right: 5px;
+}
+.innterContentRippleDelete {
+    width: 140px;
+    height: 50px;
+    /* background-color: red; */
+    text-align: center;
+    text-align: center;
+}
+.innterContentRippleDelete a{
+    font-size: 18px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(45, 2, 100);
+    margin-right: 10px;
+}
+.innterContentRippleDelete span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgb(45, 2, 100);
+    margin-right: 50px;
+}
+
+/* hands image styling by position absolute, parent .container2 */
+
+.hands{
+    position: absolute;
+    bottom: 460px;
+}
+.consoleLogo3 {
+    position: absolute;
+    top: 1000px;
+    right: 275px;
+
+/* animation styling */
+    animation-name: consoleLogo3;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+@keyframes consoleLogo3{
+    from{
+        transform: translateX(195px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.heading2 {
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    bottom: 30px;
+}
+.top {
+    width: 100%;
+    height: 140px;
     background-color: red;
-    margin-right: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headingContent {
+    width: 60%;
+    height: 90px;
+    background-color: black;
+}
+.topLeft {
+    width: 30%;
+    height: 90px;
+    background-color: yellow;
+}
+.topRight {
+    width: 30%;
+    height: 90px;
+    background-color: orange;
 }
