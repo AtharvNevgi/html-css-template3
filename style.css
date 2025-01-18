@@ -1,4 +1,6 @@
 /* background styling and background url  */
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
 .container {
     width: 100%;
     background-position: cover;
@@ -46,7 +48,6 @@
 }
 .logo a{
     text-decoration: none;
-    font-family:'Franklin Gothic Medium';
     font-size: 22px;
     font-weight: 500;
     text-align: center;
@@ -76,8 +77,8 @@
 }
 .navigation {
     text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+    font-weight: bold;
     color: black;
     transition: 0.3s;
 }
@@ -86,8 +87,8 @@
 }
 .home {
     text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+    font-weight: bold;
     color: rgb(176, 24, 236);
 }
 
@@ -96,10 +97,10 @@
     width: 55px;
     height: 20px;
     position: relative;
+    font-weight: bold;
 }
 .games a{
     text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     color: black;
 }
@@ -109,6 +110,7 @@
     background-color: white;
     border-radius:10px;
     position: absolute;
+    z-index: 2;
     top: 2.6rem;
     right: 1px;
     display: flex;
@@ -123,8 +125,7 @@
     width: 100%;
     text-align: center;
     text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
 }
 .gameContent a:hover{
@@ -186,14 +187,12 @@
 .innerContentJumpOn a{
     font-size: 20px;
     text-decoration: none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: rgb(45, 2, 100);
     margin-right: 10px;
     
 }
 .innerContentJumpOn span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     color: rgb(45, 2, 100);
     margin-right: 30px;
@@ -262,7 +261,7 @@
 }
 .upper {
     width: 100%;
-    height: 120px;
+    height: 110px;
     display: flex;
     /* align-items: center; */
 }
@@ -270,24 +269,27 @@
     width: 35%;
     height: 110px;
     margin-left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .left h1{
-    font-size: 80px;
+    font-size: 75px;
     color: rgb(45, 2, 100);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin-left: 30px;
 }
 .right {
     width: 35%;
-    height: 110px;
     background-color: rgb(178, 5, 230);
     border-radius: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .right h1{
-    font-size: 80px;
+    font-size: 75px;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 .lower {
@@ -300,7 +302,6 @@
 .lower span {
     font-size: 27px;
     color: rgb(45, 2, 100);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 /* page2 styling  */
@@ -360,13 +361,11 @@
 .innterContentFeedTheCat a{
     font-size: 18px;
     text-decoration: none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: rgb(45, 2, 100);
     margin-right: 10px;
 }
 .innterContentFeedTheCat span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     color: rgb(45, 2, 100);
     margin-right: 72px;
@@ -416,13 +415,11 @@
 .innterContentRippleDelete a{
     font-size: 18px;
     text-decoration: none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: rgb(45, 2, 100);
     margin-right: 10px;
 }
 .innterContentRippleDelete span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     color: rgb(45, 2, 100);
     margin-right: 50px;
@@ -432,11 +429,11 @@
 
 .hands{
     position: absolute;
-    bottom: 460px;
+    bottom: 530px;
 }
 .consoleLogo3 {
     position: absolute;
-    top: 1000px;
+    top: 900px;
     right: 275px;
 
 /* animation styling */
@@ -458,30 +455,61 @@
 .heading2 {
     width: 100%;
     height: 300px;
-    background-color: blue;
+    /* background-color: blue; */
     position: absolute;
-    bottom: 30px;
+    bottom: 25px;
 }
 .top {
     width: 100%;
     height: 140px;
-    background-color: red;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .headingContent {
     width: 60%;
-    height: 90px;
-    background-color: black;
+    height: 80px;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .topLeft {
-    width: 30%;
-    height: 90px;
-    background-color: yellow;
+    width: 27%;
+    height: 80px;
+    border-radius: 2.5rem;
+    background-color: rgb(178, 5, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topLeft span {
+    font-size: 45px;
+    color: white;
 }
 .topRight {
-    width: 30%;
-    height: 90px;
-    background-color: orange;
+    width: 35%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topRight span {
+    font-size: 45px;   
+    color: rgb(45, 2, 100);
+}
+.bottom {
+    width: 100%;
+    height: 170px;
+    /* background-color: peachpuff; */
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.bottom p {
+    font-size: 20px;
+    color: rgb(45, 2, 100);
 }
