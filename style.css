@@ -744,6 +744,7 @@
 }
 .heading-3 span {
     font-size: 45px;
+    color: rgb(45, 2, 100);
 }
 .heading-4 {
     width: 100%;
@@ -770,4 +771,19 @@
 .button:hover {
     background-color: rgb(178, 5, 230);
     cursor: pointer;
+}
+.arrow-hand {
+    position: absolute;
+    top: -115px;
+    right: -120px;
+}
+.heading-image {
+    width: 100%;
+    height:390px;
+    /* background-color: blue; */
+    margin-top: 80px;
+}
+.heading-image img {
+    border-radius: 1.5rem;
+    margin-left: 15px;
 }
