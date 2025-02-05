@@ -49,7 +49,8 @@
 }
 .container6 {
     background-color: rgb(229, 243, 252);
-    height: 140vh;
+    height: 135vh;
+    position: relative;
 }
 /* navbar styling */    
 .navbar {
@@ -855,26 +856,22 @@
     align-items: center;
 }
 .bottom2 {
-    width: 21%;
+    width: 19%;
     height: 60px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
+    border: none;
     transition: 0.5s;
-    color: white;
-}
-.bottom2 h4 {
-    font-size: 15px;
     color: rgb(45, 2, 100);
+    font-weight: bolder;
 }
 .bottom2:hover {
     background-color: rgba(0, 0, 0, 0.0);
     border: 1px solid white;
     cursor: pointer;
-}
-.bottom2 h4:hover{
     color: white;
 }
 .robot {
@@ -974,3 +971,38 @@ table label {
     color: white;
     font-size: 17px;
 }
+
+/* page 5 styling  */
+.page5 {
+    width: 100%;
+    height: 700px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+}
+.navLeft2 {
+    width: 38%;
+    height: 90px;
+    /* background: yellow; */
+}
+.page5 span {
+    font-size: 30px;
+    color: rgb(45, 2, 100);
+    margin-left: 50px;
+}
+.hr1 {
+    width: 100%;
+    height: 20px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+.inner {
+    width: 93%;
+}
+
